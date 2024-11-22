@@ -33,7 +33,7 @@ Q.historical_mode = 0;
 Q.old_demographics = 0;
 
 // party resources
-Q.resources = 2;
+Q.resources = 100;
 // party dues
 Q.dues = 2;
 
@@ -98,8 +98,8 @@ Q.moderate_plan_adopted = 0;
 // organizations
 
 // inter-party relations
-Q.z_relation = 50;
-Q.kpd_relation = 25;
+Q.z_relation = 100;
+Q.kpd_relation = 100;
 Q.ddp_relation = 60;
 Q.dvp_relation = 35;
 // DNVP and NSDAP are invariably hostile
