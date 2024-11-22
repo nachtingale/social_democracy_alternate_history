@@ -22,7 +22,7 @@ on-arrival: resources += dues;
 We maintain our current dues.
 
 @reduce
-subtitle: [+ dues - 1 +] resources gained.
+subtitle: [+ dues + 100 +] resources gained.
 choose-if: dues > 1
 on-arrival: dues -= 1; resources += dues; left_dissent -= 8; center_dissent -= 8; reformist_dissent -= 8; labor_dissent -= 8
 
